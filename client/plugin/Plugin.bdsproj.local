@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.12.29 21:50:08.984.bdsproj,D:\Мои документы\Borland Studio Projects\Project1.bdsproj=C:\Projects\SPTrunk\3_8\trunk\client\plugin\Plugin.bdsproj</Transaction>
+    <Transaction>2010.12.29 22:08:38.031.pas,C:\Projects\SPTrunk\3_8\trunk\client\PluginObjs.pas=</Transaction>
+    <Transaction>2010.12.29 22:23:36.750.pas,C:\Projects\SPTrunk\3_8\trunk\client\plugin\Unit1.pas=C:\Projects\SPTrunk\3_8\trunk\client\plugin\Objs.pas</Transaction>
+    <Transaction>2011.01.01 19:19:43.421.pas,C:\Projects\SPTrunk\3_8\trunk\client\ObjectInspector.pas=</Transaction>
+    <Transaction>2011.01.01 19:19:43.421.dfm,C:\Projects\SPTrunk\3_8\trunk\client\ObjectInspector.dfm=</Transaction>
+    <Transaction>2011.01.03 22:34:37.625.pas,C:\Projects\SPTrunk\3_8\trunk\client\ObjectInspector.pas=</Transaction>
+    <Transaction>2011.01.03 22:34:37.625.dfm,C:\Projects\SPTrunk\3_8\trunk\client\ObjectInspector.dfm=</Transaction>
+    <Transaction>2011.01.07 11:43:26.656.pas,C:\Projects\SPTrunk\3_8\trunk\client\plugin\Unit1.pas=C:\Projects\SPTrunk\3_8\common\Plugins.pas</Transaction>
+    <Transaction>2011.01.07 12:02:06.468.pas,C:\Projects\SPTrunk\3_8\trunk\client\plugin\Plugins.pas=</Transaction>
+    <Transaction>2011.01.11 20:44:51.062.pas,C:\Projects\SPTrunk\3_8\trunk\client\plugin\Objs.pas=</Transaction>
+    <Transaction>2011.01.11 20:45:06.718.pas,C:\Projects\SPTrunk\3_8\trunk\client\plugin\PluginImage.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

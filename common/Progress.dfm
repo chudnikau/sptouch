@@ -1,0 +1,54 @@
+object FProgress: TFProgress
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 57
+  ClientWidth = 397
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 397
+    Height = 57
+    Align = alClient
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    TabOrder = 0
+    ExplicitLeft = 8
+    ExplicitTop = 8
+    ExplicitWidth = 393
+    ExplicitHeight = 113
+    object ProgressSinhronization: TGauge
+      Left = 12
+      Top = 27
+      Width = 369
+      Height = 15
+      ForeColor = 16728642
+      Progress = 10
+    end
+    object LabelInfo: TLabel
+      Left = 12
+      Top = 8
+      Width = 53
+      Height = 13
+      Caption = 'LabelInfo'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+end

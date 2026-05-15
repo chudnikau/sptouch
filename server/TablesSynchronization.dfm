@@ -1,0 +1,193 @@
+object FTablesSynchronization: TFTablesSynchronization
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  BorderWidth = 3
+  Caption = #1057#1080#1085#1093#1088#1086#1085#1080#1079#1072#1094#1080#1103
+  ClientHeight = 269
+  ClientWidth = 337
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BtnOK: TBitBtn
+    Left = 176
+    Top = 239
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000001E8F1B91188E1491000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000065B566FF05E203FF04EA02FF52B854FF0000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000008BB78BFA00CA00FA00F904FA00F905FA00CB00FA96C4
+      97FA000000000000000000000000000000000000000000000000000000000000
+      000000000000E1E1E3FF16971BFF11CF16FF03C30BFF04C40DFF03CA07FF269A
+      28FF000000000000000000000000000000000000000000000000000000000000
+      0000000000005DA35FFF28B331FF30B738FF23B82CFF18B020FF15AE1EFF089A
+      0CFF8EBC8EFF0000000000000000000000000000000000000000000000000000
+      000089AE8AFF399D3FFF5DBE65FF4CBA54FF209024FF2BA432FF37AC3FFF21A9
+      2AFF118214FFC9D5C7FF0000000000000000000000000000000000000000B5C8
+      B3FF59915AFFA1D0A7FF86BD90FF4A8F4FFF8DAA8EFF3E8443FF50A259FF59A4
+      61FF389640FF3F8143FFF0F3EFFF00000000000000000000000098B39CFF91B2
+      96FFE3EEE8FFB5CBB9FF538654FFABC2AEFF00000000C2D1C2FF3E7641FF79A9
+      82FF80AB89FF43824BFF648B62FF0000000000000000000000006F946BFFCBD8
+      C8FF8EAD91FF5E8960FFD3DCD0FF000000000000000000000000B5C4B2FF4C7C
+      4FFFA0BCA8FFAFC8B6FF638F6AFF7E9C7AFF00000000000000009EB399FF97AE
+      93FF8CA78AFFDFE8E0FF0000000000000000000000000000000000000000C6D2
+      C4FF82A685FF99B299FFFDFEFDFF7EA281FF8FAC8FFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000E2EBE3FF658F6AFF779B7CFFD7E0D8FF92AF91FF9FBDA0FF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000B7CAB5FF8BA888FF98B298FF15561BFF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000F8FEF7FF2F642EFF578358FF}
+  end
+  object BtnCancel: TBitBtn
+    Left = 257
+    Top = 239
+    Width = 75
+    Height = 25
+    Caption = #1054#1090#1084#1077#1085#1072
+    TabOrder = 1
+    Kind = bkCancel
+  end
+  object BtnHelp: TBitBtn
+    Left = 5
+    Top = 239
+    Width = 75
+    Height = 25
+    HelpKeyword = 'F1'
+    HelpContext = 1
+    Caption = '&'#1055#1086#1084#1086#1097#1100
+    Enabled = False
+    TabOrder = 2
+    Kind = bkHelp
+  end
+  object GroupBox1: TGroupBox
+    Left = 4
+    Top = 4
+    Width = 329
+    Height = 172
+    Caption = '['#1058#1072#1073#1083#1080#1094#1099']'
+    TabOrder = 3
+    object CBTypeMeters: TCheckBox
+      Left = 10
+      Top = 18
+      Width = 150
+      Height = 17
+      Caption = #1058#1080#1087#1099#1055#1088#1080#1073#1086#1088#1086#1074
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+    end
+    object CBHeaderList: TCheckBox
+      Left = 10
+      Top = 50
+      Width = 150
+      Height = 17
+      Caption = #1057#1087#1080#1089#1086#1082#1047#1072#1075#1086#1083#1086#1074#1082#1080
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 1
+    end
+    object CBUnitHandBook: TCheckBox
+      Left = 10
+      Top = 82
+      Width = 150
+      Height = 17
+      Caption = #1045#1076#1080#1085#1080#1094#1099#1057#1087#1088#1072#1074
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+    end
+    object CBListOfString: TCheckBox
+      Left = 10
+      Top = 114
+      Width = 150
+      Height = 17
+      Caption = #1057#1087#1080#1089#1086#1082#1057#1090#1088#1086#1082#1080
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 3
+    end
+    object CBMeters: TCheckBox
+      Left = 10
+      Top = 146
+      Width = 150
+      Height = 17
+      Caption = #1055#1088#1080#1073#1086#1088#1099
+      Checked = True
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      State = cbChecked
+      TabOrder = 4
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 4
+    Top = 179
+    Width = 329
+    Height = 54
+    Caption = '['#1054#1087#1094#1080#1080']'
+    TabOrder = 4
+    object CBUpdate: TCheckBox
+      Left = 10
+      Top = 23
+      Width = 167
+      Height = 17
+      Caption = #1042#1082#1083#1102#1095#1080#1090#1100' '#1086#1073#1085#1086#1074#1083#1077#1085#1080#1077
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+end
